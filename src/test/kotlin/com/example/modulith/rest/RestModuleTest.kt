@@ -1,6 +1,6 @@
 package com.example.modulith.rest
 
-import com.example.modulith.data.RepositoryClass
+import com.example.modulith.service.ServiceBean
 import org.junit.jupiter.api.Test
 import org.moduliths.test.ModuleTest
 import org.springframework.boot.test.mock.mockito.MockBean
@@ -10,7 +10,7 @@ import org.springframework.boot.test.mock.mockito.MockBean
 class RestModuleTest {
 
     @MockBean
-    val repositoryClass: RepositoryClass? = null
+    val serviceBean: ServiceBean? = null
 
     @Test
     fun checkModule() {
